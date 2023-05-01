@@ -42,8 +42,9 @@ console.log(addNewBook())
 // the book's isAvailable property to false. If the book is not found in the library, the
 // function should return a message indicating that the book is not available.
 function checkOut(booktitle){
+    
    for(let i=0;i <getAvailableBooks.length; i++) {
-    if  "Merchants at war" in getAvailableBooks{
+    if (book == getAvailableBooks){
         print("Book is available")
     }
     else{
@@ -53,8 +54,8 @@ function checkOut(booktitle){
    }
 
 }
-console.log(checkOut(booktitle))
 
+let book ={title:"Merchants at war" ,author:"Paisley Cooper" ,publicationYear:2003}
 console.log(checkOut("Merchants at war"))
 // Create a function returnBook that takes a 
 // book title as an argument and changes the
@@ -64,7 +65,7 @@ console.log(checkOut("Merchants at war"))
 // should return a message indicating 
 // that the book does not belong to the library.
 function returnBook(book3){
-    if book3 ==getAvailableBooks{
+    if (book3 ==getAvailableBooks){
         print(true)
     }
     else{
